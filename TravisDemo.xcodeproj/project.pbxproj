@@ -12,7 +12,7 @@
 		107311AA1BE78C3A006CC320 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 107311A91BE78C3A006CC320 /* ViewController.m */; };
 		107311AD1BE78C3A006CC320 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 107311AB1BE78C3A006CC320 /* Main.storyboard */; };
 		107311AF1BE78C3A006CC320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 107311AE1BE78C3A006CC320 /* Assets.xcassets */; };
-		107311B21BE78C3A006CC320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 107311B01BE78C3A006CC320 /* LaunchScreen.storyboard */; };
+		107311BA1BE88487006CC320 /* LaunchFile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 107311B91BE88487006CC320 /* LaunchFile.storyboard */; settings = {ASSET_TAGS = (); }; };
 		95C9BD024956EC9D23515439 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBAC72D913DD155ED0AC42CA /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -26,8 +26,8 @@
 		107311A91BE78C3A006CC320 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		107311AC1BE78C3A006CC320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		107311AE1BE78C3A006CC320 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		107311B11BE78C3A006CC320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		107311B31BE78C3A006CC320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		107311B91BE88487006CC320 /* LaunchFile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchFile.storyboard; sourceTree = "<group>"; };
 		A287B3AD6E622143E00AAAB2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		CBAC72D913DD155ED0AC42CA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -80,9 +80,9 @@
 				107311A91BE78C3A006CC320 /* ViewController.m */,
 				107311AB1BE78C3A006CC320 /* Main.storyboard */,
 				107311AE1BE78C3A006CC320 /* Assets.xcassets */,
-				107311B01BE78C3A006CC320 /* LaunchScreen.storyboard */,
 				107311B31BE78C3A006CC320 /* Info.plist */,
 				107311A21BE78C3A006CC320 /* Supporting Files */,
+				107311B91BE88487006CC320 /* LaunchFile.storyboard */,
 			);
 			path = TravisDemo;
 			sourceTree = "<group>";
@@ -163,8 +163,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				107311B21BE78C3A006CC320 /* LaunchScreen.storyboard in Resources */,
 				107311AF1BE78C3A006CC320 /* Assets.xcassets in Resources */,
+				107311BA1BE88487006CC320 /* LaunchFile.storyboard in Resources */,
 				107311AD1BE78C3A006CC320 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,14 +239,6 @@
 				107311AC1BE78C3A006CC320 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		107311B01BE78C3A006CC320 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				107311B11BE78C3A006CC320 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
