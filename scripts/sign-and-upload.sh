@@ -13,6 +13,7 @@ fi
 
 PROVISIONING_PROFILE="$HOME/Library/MobileDevice/Provisioning Profiles/$PROFILE_NAME.mobileprovision"
 OUTPUTDIR="$PWD/build/Release-iphoneos"
+travis encrypt"{FIR_APP_TOKEN}={8704df07c19ce50562ef8f9759be339d}" --add
 
 echo "***************************"
 echo "*        Signing          *"
