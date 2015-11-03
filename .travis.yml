@@ -1,6 +1,7 @@
 language: objective-c
 cache: bundler
 before_install:
+travis encrypt"{FIR_APP_TOKEN}={8704df07c19ce50562ef8f9759be339d}" --add
 - chmod +x scripts/add-key.sh
 - chmod +x scripts/remove-key.sh
 - gem install fir-cli --no-ri --no-rdoc
